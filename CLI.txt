@@ -1,0 +1,73 @@
+(base) zrowgz@Eamons-MacBook-Pro fintech-workspace % cd w14
+(base) zrowgz@Eamons-MacBook-Pro w14 % cd uw-challenge-14 
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-14 % ls
+README.md				Resources				machine_learning_trading_bot.ipynb
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-14 % git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   machine_learning_trading_bot.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-14 % git add . 
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-14 % git commit -m "cleaned up"
+[main b8ff82e] cleaned up
+ 1 file changed, 2633 insertions(+), 31 deletions(-)
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-14 % git push
+Enter passphrase for key '/Users/zrowgz/.ssh/id_rsa': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 990.53 KiB | 6.39 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:ZrowGz/uw-challenge-14.git
+   8af6512..b8ff82e  main -> main
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-14 % git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+	modified:   machine_learning_trading_bot.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	images/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-14 % git add .
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-14 % git commit -m "Code complete, analysis complete."
+[main 9e69980] Code complete, analysis complete.
+ 18 files changed, 657 insertions(+), 58 deletions(-)
+ create mode 100644 .DS_Store
+ rewrite README.md (100%)
+ create mode 100644 images/.DS_Store
+ create mode 100644 images/Returns_LR.png
+ create mode 100644 images/Returns_SVM_LR.png
+ create mode 100644 images/SVM_1M_SMA30-200.png
+ create mode 100644 images/SVM_1M_SMA4-100.png
+ create mode 100644 images/SVM_3M_SMA30-200.png
+ create mode 100644 images/SVM_3M_SMA4-100.png
+ create mode 100644 images/SVM_6M_SMA20-100.png
+ create mode 100644 images/SVM_6M_SMA30-100.png
+ create mode 100644 images/SVM_6M_SMA30-200.png
+ create mode 100644 images/SVM_6M_SMA4-100.png
+ create mode 100644 images/SVM_6M_SMA5-50.png
+ create mode 100644 images/baseline.png
+ create mode 100644 images/report_lr.png
+ create mode 100644 images/report_svm.png
+(base) zrowgz@Eamons-MacBook-Pro uw-challenge-14 % git push
+Enter passphrase for key '/Users/zrowgz/.ssh/id_rsa': 
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 426.03 KiB | 6.66 MiB/s, done.
+Total 21 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To github.com:ZrowGz/uw-challenge-14.git
+   b8ff82e..9e69980  main -> main
