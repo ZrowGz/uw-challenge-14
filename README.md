@@ -2,7 +2,7 @@
 
 ## Description
 
-This is where I tell you about it  
+I will be using various SMAs as trading signals for OHLCV and modeling potential returns using Machine Learning technologies. These models will be tuned for optimal performance and backtested against historical data to determine which is the most profitable trading algorithm for this asset.  
 
 ---
 ## Tuning & Evaluating the Algorithm
@@ -21,7 +21,8 @@ After obtaining this initial baseline, I adjusted all three parameters to determ
 For this initial model, I found that the 1 month training window yielded terrible results, nearly mirroring the asset's performance. In fact, the movement was so opposed to the actual performance that it might be worth looking into an alternate strategy where you performed the opposite trade as to what this algorithm says to do.  
 The best performing strategy used a 6 month training window, with the signal being the 30 day SMA & the 200 day SMA. This combination massively outperformed all others, nearly doubling profits over the analysis period. See the following visualizations of the different combinations and their respective yields.
 
->**The followihng images show the differet combinations of signal frequency and training window durations:**
+>**The followihng images show the various combinations of signal frequency and training window durations:**  
+
 >![Baseline Image](images/SVM_3M_SMA4-100.png)
 >![Baseline with Short Train Window](images/SVM_1M_SMA4-100.png)  
 >`Top Left: 3M Train, SMA 4/100 (Baseline)`  
